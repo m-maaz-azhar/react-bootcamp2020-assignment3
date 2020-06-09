@@ -2,25 +2,20 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+function HelloWorld(props) {
+  return <div className='centered'> 
+        <p>Hello <strong>{props.name}</strong></p> 
+        <h1>React - Bootcamp 2020 - Assignment 03</h1>
+        <img src='https://source.unsplash.com/600x400/?programming'></img>
+        <ul>
+        <h3>List</h3>
+          <li>List Item 1</li>
+          <li>List Item 2</li>
+          <li>List Item 3</li>
+        </ul>
+        <h3>JS Expression</h3>
+        <p>3 X 3 = {3 * 3 }</p>
+  </div>
+  
 }
-
-export default App;
+export default HelloWorld;
