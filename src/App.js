@@ -5,7 +5,7 @@ function HelloWorld(props) {
   return <div className='centered'> 
         <p>Hello <strong>{props.name}</strong></p> 
         <h1>React - Bootcamp 2020 - Assignment 03</h1>
-        <img src='https://source.unsplash.com/600x400/?programming'></img>
+        <img src='https://source.unsplash.com/600x400/?programming' alt='Random Image'></img>
         <ul>
         <h3>List</h3>
           <li>List Item 1</li>
